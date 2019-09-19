@@ -23,13 +23,16 @@
   schema:name "TCS WP15 Plugin Mapper" ;
   schema:description "Plugin WP15 for the conversion from TCS to JSON payload based on OLD Mapper" ;
 
-#EPISODES
+
   dct:relation <https://data.geoscience.earth/api/wfsModel/operation> ;
+  dct:relation <https://data.geoscience.earth/api/wfsBorehole/operation>;
 .
 
 
-#EVENTS
+
 <https://data.geoscience.earth/api/wfsModel/operation> a hydra:Operation ;
+.
+<https://data.geoscience.earth/api/wfsBorehole/operation> a hydra:Operation ;
 .
 
 
